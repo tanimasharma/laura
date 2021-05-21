@@ -1,6 +1,6 @@
 import pygame
  
-pygame.init()
+pygame.init()    #initiating 
  
 white = (255, 255, 255)
 black = (0, 0, 0)
@@ -19,7 +19,7 @@ y1_change = 0
  
 clock = pygame.time.Clock()
  
-while not game_over:
+while not game_over:        #nested loops
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             game_over = True
